@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Creams</h1>
+
+<div id="creams">
+  <% @creams.each do |cream| %>
+    <%= render cream %>
+    <p>
+      <%= link_to "Show this cream", cream %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New cream", new_cream_path %>

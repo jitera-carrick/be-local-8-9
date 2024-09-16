@@ -1,5 +1,12 @@
 require 'sidekiq/web'
 Rails.application.routes.draw do
+  resources :animals
+  resources :cars
+  resources :categories
+  resources :products
+  resources :creams
+  resources :simples
+  resources :stores
   resources :books
   mount Rswag::Ui::Engine => '/api-docs'
   mount Rswag::Api::Engine => '/api-docs'
