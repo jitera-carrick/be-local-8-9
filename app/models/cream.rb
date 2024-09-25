@@ -1,2 +1,0 @@
-class Cream < ApplicationRecord
-end
