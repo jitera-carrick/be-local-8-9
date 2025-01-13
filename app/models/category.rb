@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-  has_many :creams
+  has_many :creams, dependent: :destroy
 end
