@@ -1,5 +1,5 @@
 # typed: true
-# 4
+# 6
 class BaseService
   def initialize(*_args); end
 
