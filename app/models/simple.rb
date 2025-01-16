@@ -1,3 +1,3 @@
 class Simple < ApplicationRecord
-  # 2
+  # 3
 end
