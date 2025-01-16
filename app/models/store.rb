@@ -1,4 +1,4 @@
 class Store < ApplicationRecord
 
-  # 2
+  # 4
 end
