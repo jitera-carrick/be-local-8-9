@@ -1,5 +1,5 @@
 class CustomAccessToken < Doorkeeper::AccessToken
-  # 3
+  # 4
   before_create :set_expiration_time, if: :use_refresh_token?
   before_create :check_revoke_access_token
 
