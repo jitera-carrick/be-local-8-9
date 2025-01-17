@@ -4,5 +4,7 @@ class Book < ApplicationRecord
 
   # 5
 
+  # ERD 1
+
   # Additional validations for uuid can be added here if needed in the future
 end
