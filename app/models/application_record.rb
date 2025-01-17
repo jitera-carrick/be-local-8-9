@@ -2,5 +2,5 @@
 class ApplicationRecord < ActiveRecord::Base
   self.abstract_class = true
 
-  # 5
+  # 7
 end
