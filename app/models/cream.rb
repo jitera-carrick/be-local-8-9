@@ -1,5 +1,5 @@
 class Cream < ApplicationRecord
   belongs_to :category
 
-  # 5
+  # 6
 end
