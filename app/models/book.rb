@@ -2,7 +2,9 @@ class Book < ApplicationRecord
   validates :uuid, length: { maximum: 255 }
   belongs_to :category
 
-  # 3
+  # 5
+
+  # ERD 1
 
   # Additional validations for uuid can be added here if needed in the future
 end
