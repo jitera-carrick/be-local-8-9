@@ -1,5 +1,5 @@
 class Product < ApplicationRecord
   belongs_to :category
 
-  # 4
+  # 5
 end
