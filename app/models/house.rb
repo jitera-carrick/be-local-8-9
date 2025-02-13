@@ -1,3 +1,3 @@
 class House < ApplicationRecord
-  # 5
+  # 6
 end
